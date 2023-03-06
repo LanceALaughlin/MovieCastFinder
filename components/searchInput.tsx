@@ -2,7 +2,7 @@ import { useState } from "react";
 import useSWR from "swr";
 import fetcher from "@components/utils/fetcher";
 import LiveSearch from "./liveSearch";
-import APIKey from "@components/apiKeys";
+import APIKey from "../apiKeys";
 
 const SearchInput = ({
   label,

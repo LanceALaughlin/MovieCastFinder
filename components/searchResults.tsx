@@ -1,6 +1,6 @@
 import useSWR from "swr";
 import fetcher from "@components/utils/fetcher";
-import APIKey from "@components/apiKeys";
+import APIKey from "../apiKeys";
 
 //TODO: Better organization for types
 
