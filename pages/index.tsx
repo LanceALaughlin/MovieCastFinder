@@ -5,7 +5,7 @@ import styles from "@components/styles/Home.module.css";
 import SearchInput from "@components/components/searchInput";
 import SearchResults from "@components/components/searchResults";
 
-export interface Movie {
+interface Movie {
   adult: boolean;
   backdrop_path: string;
   genre_ids: [];
